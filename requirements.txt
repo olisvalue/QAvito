@@ -1,0 +1,5 @@
+peft==0.12.0
+PyYAML==6.0.2
+Requests==2.32.3
+streamlit==1.39.0
+transformers==4.45.2

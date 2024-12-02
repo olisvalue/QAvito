@@ -1,0 +1,2 @@
+ads_path : "./data/processed_data.json"
+device : "gpu"
