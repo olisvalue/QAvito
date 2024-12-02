@@ -60,7 +60,7 @@ Code for preprocessing, data analysis, and generating question-answer pairs can 
 
 ### Model choice
 The chosen model for fine-tuning was Qwen2.5-1.5B-Instruct, for the following reasons:
-1. According to the [Huggingface LLM Leaderbord](https://huggingface.co/spaces/open-llm-leaderboard/), it is one of the best lightweight models (<2B parameters) for question-answering and conversational tasks.
+1. According to the [Huggingface LLM Leaderbord](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard), it is one of the best lightweight models (<2B parameters) for question-answering and conversational tasks.
 2. Its multilingual capabilities and open accessibility make it ideal for this project.
 3. The model’s lightweight nature ensures it can be deployed on resource-constrained devices, making it practical for real-world applications.
 
@@ -90,7 +90,7 @@ An Alignment phase using techniques such as DPO can be implemented to refine the
 ## References
 1. [Avito Demand Prediction challenge on Kaggle.](https://www.kaggle.com/competitions/avito-demand-prediction/)
 2. [llama-factory Github Repository.](https://github.com/hiyouga/LLaMA-Factory)
-3. [Huggingface LLM Leaderbord.](https://huggingface.co/spaces/open-llm-leaderboard/)
+3. [Huggingface LLM Leaderbord.](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard)
 
 
 ## Examples
