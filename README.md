@@ -97,10 +97,7 @@ An Alignment phase using techniques such as DPO can be implemented to refine the
 Here are some examples of the fine-tuned LLM in action, demonstrating its ability to answer user questions based on ad descriptions.  
 
 ### First 
-![](assets/image-3.png)
-![](assets/image-4.png)
+![](assets/first.png)
 
 ### Second
-![alt text](assets/image-9.png)
-![alt text](assets/image-8.png)
-![alt text](assets/image-10.png)
+![alt text](assets/second.png)
