@@ -4,7 +4,7 @@ This repository contains:
 - 🖥️ A Streamlit-based web application for model inference.
 - 🔧 A pipeline for data preprocessing, analysis, and LLM fine-tuning.
 
-Additionally, this work includes the creation of a custom dataset - [Avito Ads Q&A Dataset](www.kaggle.com/datasets/olisovv/avito-ads-q-and-a-dataset/), based on the [Avito Demand Prediction](https://www.kaggle.com/competitions/avito-demand-prediction/) Kaggle challenge.
+Additionally, this work includes the creation of a custom dataset - [Avito Ads Q&A Dataset](https://www.kaggle.com/datasets/olisovv/avito-ads-q-and-a-dataset/), based on the [Avito Demand Prediction](https://www.kaggle.com/competitions/avito-demand-prediction/) Kaggle challenge.
 
 ## Motivation 
 🎯 On platforms like Avito, where users post their ads, potential buyers frequently ask questions about the listed products or services.
@@ -50,7 +50,7 @@ On the second page, you can:
 ## Project Highlights
 
 ### Dataset Preparation
-The [Avito Ads Q&A Dataset](www.kaggle.com/datasets/olisovv/avito-ads-q-and-a-dataset/) was created to facilitate this project.
+The [Avito Ads Q&A Dataset](https://www.kaggle.com/datasets/olisovv/avito-ads-q-and-a-dataset/) was created to facilitate this project.
 Detailed information on the dataset and its preparation is available in the Kaggle link above.
 
 Code for preprocessing, data analysis, and generating question-answer pairs can be found in the following notebooks:
@@ -60,12 +60,12 @@ Code for preprocessing, data analysis, and generating question-answer pairs can 
 
 ### Model choice
 The chosen model for fine-tuning was Qwen2.5-1.5B-Instruct, for the following reasons:
-1. According to the [Huggingface LLM Leaderbord](huggingface.co/spaces/open-llm-leaderboard/), it is one of the best lightweight models (<2B parameters) for question-answering and conversational tasks.
+1. According to the [Huggingface LLM Leaderbord](https://huggingface.co/spaces/open-llm-leaderboard/), it is one of the best lightweight models (<2B parameters) for question-answering and conversational tasks.
 2. Its multilingual capabilities and open accessibility make it ideal for this project.
 3. The model’s lightweight nature ensures it can be deployed on resource-constrained devices, making it practical for real-world applications.
 
 ### Fine-tuning Framework:
-Fine-tuning was conducted using the [llama-factory](github.com/hiyouga/LLaMA-Factory) framework.
+Fine-tuning was conducted using the [llama-factory](https://github.com/hiyouga/LLaMA-Factory) framework.
 To replicate the fine-tuning process, use the files train_data.json, val_data.json, dataset_info.json and finetune_config.yaml, available [here](https://drive.google.com/drive/folders/1bSvGqeBLkUTDXzApsWl-Q98-N8-XC2q6?usp=sharing).
 
 
@@ -89,8 +89,8 @@ An Alignment phase using techniques such as DPO can be implemented to refine the
 
 ## References
 1. [Avito Demand Prediction challenge on Kaggle.](https://www.kaggle.com/competitions/avito-demand-prediction/)
-2. [llama-factory Github Repository.](github.com/hiyouga/LLaMA-Factory)
-3. [Huggingface LLM Leaderbord.](huggingface.co/spaces/open-llm-leaderboard/)
+2. [llama-factory Github Repository.](https://github.com/hiyouga/LLaMA-Factory)
+3. [Huggingface LLM Leaderbord.](https://huggingface.co/spaces/open-llm-leaderboard/)
 
 
 ## Examples
