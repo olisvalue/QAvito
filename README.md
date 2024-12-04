@@ -15,7 +15,7 @@ By creating a system that automatically answers these questions, we can simplify
 ## Getting started
 
 ### Installation 
-💻 Clone the repository and install the required dependencies:
+💻 Clone the repository and install the required dependencies (python3.10 required):
 ```
 git clone https://github.com/olisvalue/QAvito.git
 cd QAvito
